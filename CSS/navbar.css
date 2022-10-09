@@ -1,0 +1,28 @@
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #F9f9fa;
+    padding: 20px 40px ;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__link{
+    position: relative;
+    color: #2e363e;
+}
+.nav__notification {
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+}
+        
+.nav__optionallert{
+    
+    position: absolute;
+    left: 14px;
+    bottom: 10px;}
